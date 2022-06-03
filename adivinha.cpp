@@ -1,8 +1,12 @@
 #include<iostream>
+using namespace std;
 
 int main () {
-    std::cout << "*************************************";
-    std::cout << "* Bem-vindos ao jogo da adivinhação *";
-    std::cout << "*************************************";
+    cout << "*************************************" << endl;
+    cout << "* Bem-vindos ao jogo da adivinhação *" << endl;
+    cout << "*************************************" << endl;
+
+    int numero_secreto = 42;
+    cout << "O número secreto é " << numero_secreto <<". Não conte para ninguém!" << endl; 
 }
 
